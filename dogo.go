@@ -47,7 +47,7 @@ type Dogo struct {
     isModified bool
 }
 
-//start new monitor
+//NewMonitor starts new monitor
 func (d *Dogo) NewMonitor() {
     if d.WorkingDir == "" {
         d.WorkingDir = console.WorkingDir

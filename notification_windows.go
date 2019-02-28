@@ -52,7 +52,7 @@ func boolToUint32(b bool) uint32 {
 	}
 }
 
-// HANDLE WINAPI FindFirstChangeNotification(
+// FindFirstChangeNotification handles WINAPI FindFirstChangeNotification(
 //   _In_  LPCTSTR lpPathName,
 //   _In_  BOOL bWatchSubtree,
 //   _In_  DWORD dwNotifyFilter
